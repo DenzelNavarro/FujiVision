@@ -1,0 +1,73 @@
+/* Media Queries for responsiveness */
+
+/* Small devices (tablets, 768px and below) */
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-heading {
+        font-size: 32px;
+        line-height: 40px;
+        margin-right: 0px;
+    }
+
+    .para-home {
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    .img-home {
+        width: 100%;
+    }
+
+    .about-us-container {
+        width: 90%;
+    }
+
+    .heading-about {
+        font-size: 24px;
+    }
+
+    .img-about {
+        width: 100%;
+        position: static;
+        margin-top: 20px;
+    }
+}
+
+/* Extra small devices (phones, 576px and below) */
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .home-heading {
+        font-size: 24px;
+    }
+
+    .btn-navbar {
+        padding: 8px 30px;
+    }
+
+    .content-home2 {
+        flex-direction: column;
+    }
+
+    .carousel-item .card {
+        margin: 0 auto;
+    }
+
+    .product-category {
+        padding: 20px 0;
+    }
+
+    .heading-product {
+        font-size: 26px;
+    }
+
+    .img-card {
+        height: 180px;
+    }
+}
